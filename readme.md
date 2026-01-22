@@ -96,3 +96,9 @@ pip install -r requirements.txt
 python -m spacy download en_core_web_sm
 python manage.py migrate
 python manage.py runserver
+
+### Frontend
+```bash
+cd frontend
+npm install
+npm run dev
