@@ -96,13 +96,6 @@ pip install -r requirements.txt
 python -m spacy download en_core_web_sm
 python manage.py migrate
 python manage.py runserver
+```
 
-### Backend
-```bash
-cd backend
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-python -m spacy download en_core_web_sm
-python manage.py migrate
-python manage.py runserver
+### F
