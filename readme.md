@@ -42,7 +42,7 @@ No OpenAI, no GPT, no paid services.
 ---
 
 ## 🏗️ Architecture
-
+```bash
 resume-bullet-optimizer/
 ├── backend/ # Django + DRF API
 │ ├── optimizer/ # NLP logic + API views
@@ -53,6 +53,7 @@ resume-bullet-optimizer/
 │ ├── src/
 │ └── dist/ # Production build (Render)
 └── README.md
+```
 
 
 ### Flow
