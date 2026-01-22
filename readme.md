@@ -98,4 +98,11 @@ python manage.py migrate
 python manage.py runserver
 ```
 
-### F
+### Frontend
+```bash
+cd frontend
+npm install
+npm run dev
+Frontend runs on http://localhost:5173
+Backend runs on http://localhost:8000
+```
